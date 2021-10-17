@@ -58,8 +58,9 @@ void CoffeeVendingMachine::show() {
     << "설탕" << tong[2].getSize() << endl;
 }
 
-bool CoffeeVendingMachine::checkInputError() {
-    if(pick)
+bool CoffeeVendingMachine::checkInputError(int pick) {
+    if(pick < 1 || 5 < pick)
+        cout << "1 ~ 5만 입력 가능합니다." << endl;
 }
 
 void CoffeeVendingMachine::run() {
@@ -70,6 +71,7 @@ void CoffeeVendingMachine::run() {
         cout << "메뉴를 눌러 주세요(1:에스프레소, 2:아메리카노, 3:설탕커피, 4:잔량보기, 5:채우기) >> ";
 
         cin >> pick;
+        checkInputError(pick);
 
         switch (pick) {
             case 1:
