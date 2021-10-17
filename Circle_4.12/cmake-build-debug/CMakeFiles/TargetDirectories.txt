@@ -1,0 +1,3 @@
+/Users/sojeongshin/CLionProjects/Project4_12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/sojeongshin/CLionProjects/Project4_12/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/sojeongshin/CLionProjects/Project4_12/cmake-build-debug/CMakeFiles/Project4_12.dir
